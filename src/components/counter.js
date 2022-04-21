@@ -9,7 +9,8 @@ function counter() {
     }
 
     function handleMinus() {
-        setCount(count - 1)
+        //if(count !==0) { setCount(count - 1)} samme som:
+        if (count !== 0) setCount(count - 1)
     }
     function handlePlus() {
         setCount(count + 1)
