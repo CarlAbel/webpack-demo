@@ -1,0 +1,11 @@
+$text-color: goldenrod;
+
+.hello {
+    color: $text-color;
+    display: flex;
+
+    & img {
+        width: 10rem;
+        height: auto;
+    }
+}
