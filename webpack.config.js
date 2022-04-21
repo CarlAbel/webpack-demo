@@ -6,7 +6,7 @@ module.exports = {
         subpage: "./src/subpage.js"
     },
     output: {
-        filename: "[main].bundle.js",
+        filename: "[name].bundle.js",
         path: path.resolve(__dirname, "build")
     },
     devtool: 'inline-source-map',
