@@ -1,9 +1,12 @@
 const path = require("path")
 
 module.exports = {
-    entry: "./src/index.js",
+    entry: {
+        index: "./src/index.js",
+        subpage: "./src/subpage.js"
+    },
     output: {
-        filename: "main.js",
+        filename: "[main].bundle.js",
         path: path.resolve(__dirname, "build")
     },
     devtool: 'inline-source-map',
