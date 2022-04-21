@@ -1,5 +1,5 @@
-import "./hello.scss"
-import webpackIcon from "./images/webpack-logo.png"
+import "../hello.scss"
+import webpackIcon from "../images/webpack-logo.png"
 
 function component() {
     const element = document.createElement("div")

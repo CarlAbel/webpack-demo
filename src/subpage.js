@@ -1,12 +1,11 @@
-
+import navigation from "./components/navigation.js";
 
 function subpage() {
     const element = document.createElement('div')
+    element.classList.add("wrapper")
 
-    element.innerHTML = `
-        <h2>This is the subpage</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, labore!</p>
-    `
+    element.appendChild(navigation())
+
     return element;
 }
 document.body.appendChild(subpage())
